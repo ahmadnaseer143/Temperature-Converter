@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+div{
+    height: 33.33vh;
+}
+#farenheit{
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+input[type=number]{
+    height: 100%;
+    width: 100%;
+    background: black;
+    color: white;
+    outline: none;
+    text-align: center;
+    font-size: 10em;
+    border: 0;
+}
+::placeholder{
+    color: #222222;
+}
